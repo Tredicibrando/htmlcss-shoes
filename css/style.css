@@ -3,4 +3,117 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto','Yeseva One', sans-serif ;
+}
+
+header{
+    position: absolute;
+}
+
+.main-menu{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 25;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.main-menu li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+li a{
+    text-decoration: none;
+    color: currentColor;
+    font-size: 2vh;
+    opacity: 50%;
+    font-weight: bold;
+}
+
+li a:hover{
+    text-decoration: none;
+    color: currentColor;
+    font-size: 2vh;
+    opacity: 100%;
+}
+
+.button{
+    background-color: rgb(235, 235, 235);
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    line-height: 5vh;
+    text-align: center;
+    box-shadow: 5px 6px 16px 0px rgba(17, 17, 17, 0.5);
+}
+
+
+.wrap{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+
+.text-1::after{
+    content:"Il nostro modello di punta";
+    display: block;
+    position: absolute;
+    font-size: 3vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20vh);
+    color: #098996;
+    font-family:'Yeseva One';
+}
+
+.text-2::after{
+    content:"Il nostro modello di punta";
+    display: block;
+    position: absolute;
+    font-size: 3vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20vh);
+    color: #019b71;
+    font-family:'Yeseva One';
+}
+
+.text-3::after{
+    content:"Il nostro modello di punta";
+    display: block;
+    position: absolute;
+    font-size: 3vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20vh);
+    color: #05b7fe;
+    font-family:'Yeseva One';
+}
+
+
+
+/* TAG */
+
+#scarpa-1{
+    background-image: url(../img/01.png);
+    background-size: 30%;
+    background-color: rgb(190, 30, 30);
+}
+
+#scarpa-2{
+    background-image: url(../img/02.png);
+    background-size: 30%;
+    background-color: beige;
+
+}
+
+#scarpa-3{
+    background-image: url(../img/03.png);
+    background-size: 30%;
+    background-color: salmon;
 }
